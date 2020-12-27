@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RC Cola</title>
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+    <body>
+        <section class="sec">
+            <header>
+                <a href="#"><img src = "./images/logo.png" class ="logo"></a>
+                <div class ="toggleMenu" onclick="menuToggle();"></div>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>Decide For<br><span>Yourself</span></h2>
+                    <p>In the Philippines, RC Cola released advertisements with artists popular in the country. 
+                    In 2009, these had Maja Salvador and Kim Bum as celebrity endorsers. The Philippine 
+                    marketing of the brand also painted the front of sari-sari stores with slogans like 
+                    "RC ng bayan".</p> 
+                    <a href="#"> View All Products</a>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/RC3Zero.png" class="rc">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="./images/RC3.png" onclick="imgSlider('./images/RC3Zero.png');bgChanger('#131313')"></li>
+                <li><img src="./images/RC1.png" onclick="imgSlider('./images/RC3Silver.png');bgChanger('#e60c2c')"></li>
+                <li><img src="./images/RC2.png" onclick="imgSlider('./images/RC3Blue.png');bgChanger('#0062be')"></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="#"><img src="./images/facebook.png"></a></li>
+                <li><a href="#"><img src="./images/twitter.png"></a></li>
+                <li><a href="#"><img src="./images/instagram.png"></a></li>
+            </ul>
+        </section>
+        <script type="text/javascript" src="./js/slider.js"></script>
+    </body>
+</html>
